@@ -1,6 +1,6 @@
 console.log("Your code goes here...");
 
-function add(n1: number, n2: number, showResult: boolean, phrase: string) {
+function add1(n1: number, n2: number, showResult: boolean, phrase: string) {
 
     let result = n1 + n2
 
@@ -13,7 +13,7 @@ function add(n1: number, n2: number, showResult: boolean, phrase: string) {
 
 let number1 = 5;
 const number2 = 2.8;
-const printResult = true;
+const isPrintResult = true;
 const resultPhrase = 'The result is: '
 
-add(number1, number2, printResult, resultPhrase);
+add1(number1, number2, isPrintResult, resultPhrase);
